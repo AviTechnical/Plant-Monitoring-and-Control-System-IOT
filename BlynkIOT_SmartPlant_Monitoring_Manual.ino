@@ -10,9 +10,9 @@
 #define ONE_WIRE_BUS D2
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
-char auth[] ="p45VewY2V-oWn7jKVcqhuvhbFGBHSjBu";
-char ssid[] = "Thispc";
-char pass[] = "01234567";
+char auth[] ="p45VewY2V-oWn7jKVcqhuvhbFGBHSjBu"; //Enter your Blynk Auth token
+char ssid[] = "Thispc"; //Enter your Wifi Name
+char pass[] = "01234567"; //Enter your Wifi Password
 //code written by Avitechnical
 #define DHTPIN 2
 #define DHTTYPE DHT11
